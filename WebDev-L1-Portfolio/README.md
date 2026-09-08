@@ -15,6 +15,13 @@ I am passionate about creating responsive, user-friendly, and visually appealing
 ## Technologies Used
 
 - HTML5
+- ## How to Run
+Open the `index.html` file in any modern web browser.
+
+## Internship
+Oasis Infobyte Web Development & Design Internship
+
+Level 1 - Task 1
 - CSS3
 - JavaScript
 - Responsive Web Design
