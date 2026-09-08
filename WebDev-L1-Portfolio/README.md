@@ -15,17 +15,7 @@ I am passionate about creating responsive, user-friendly, and visually appealing
 ## Technologies Used
 
 - HTML5
-- ## How to Run
-Open the `index.html` file in any modern web browser.
 
-## Internship
-Oasis Infobyte Web Development & Design Internship
-
-Level 1 - Task 1
-- CSS3
-- JavaScript
-- Responsive Web Design
-- Google Fonts
 
 ## Features
 
@@ -75,6 +65,11 @@ A responsive portfolio website designed to showcase my skills, projects, educati
 - LinkedIn: https://www.linkedin.com/in/qadeer-ali-9b6b5a421/
 - GitHub: https://github.com/qadeerali6863
 
+
+## Internship
+Oasis Infobyte Web Development & Design Internship
+
+Level 1 - Task 2
 ## Project Structure
 
 ```text
