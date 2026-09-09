@@ -149,9 +149,13 @@ All three projects were designed with responsive layouts to provide a consistent
 **Oasis Infobyte — Web Development & Design Internship**
 
 Level 1 — Completed
+
 Task	Project	Status
+
 Task 1	NovaTech Landing Page	✅ Completed
+
 Task 2	Personal Portfolio	✅ Completed
+
 Task 3	TempFlow Temperature Converter	✅ Completed
 
 ---
