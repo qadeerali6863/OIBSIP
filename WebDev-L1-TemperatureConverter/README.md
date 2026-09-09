@@ -13,7 +13,29 @@ TempFlow was developed as part of the **Oasis Infobyte Web Development & Design 
 The application provides instant temperature conversions along with educational information about the three major temperature scales. Users can enter a temperature, select the input unit, and view the equivalent values in Celsius, Fahrenheit, and Kelvin.
 
 The project also includes input validation and absolute-zero handling to provide a reliable and user-friendly experience.
-
+🎓 Educational Purpose
+TempFlow is designed not only as a conversion tool but also as a small educational resource.
+The website explains:
+- Celsius
+- Fahrenheit
+- Kelvin
+- Conversion formulas
+- Temperature reference points
+- Absolute zero
+This makes the project useful for both practical conversion and basic temperature-scale learning.
+💼 Internship Information
+This project was developed for:
+Oasis Infobyte
+Web Development & Design Internship
+Level 1 — Task 3: Temperature Converter Website
+👨‍💻 Author
+Qadeer Ali
+Front-End Web Developer
+BS Information Technology Student
+GitHub
+https://github.com/qadeerali6863
+LinkedIn
+https://www.linkedin.com/in/qadeer-ali-9b6b5a421/
 ---
 
 ## ✨ Features
