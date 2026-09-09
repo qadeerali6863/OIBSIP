@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TempFlow | Temperature Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="converter">
+    <header class="heading">
+      <div class="icon">🌡</div>
+      <h1>TempFlow</h1>
+      <p>Convert temperatures quickly and accurately</p>
+    </header>
+
+    <section class="content">
+      <form id="temperature-form" novalidate>
+        <div class="input-row">
+          <label>
+            <span class="field-label">Temperature value</span>
+
+            <div class="input-box">
+              <input
+                id="temperature"
+                type="text"
+                inputmode="decimal"
+                placeholder="e.g. 25"
+              >
+              <span id="unit-symbol">°C</span>
+            </div>
+          </label>
+
+          <label>
+            <span class="field-label">Input unit</span>
+
+            <select id="input-unit">
+              <option value="celsius">Celsius (°C)</option>
+              <option value="fahrenheit">Fahrenheit (°F)</option>
+              <option value="kelvin">Kelvin (K)</option>
+            </select>
+          </label>
+        </div>
+
+        <p class="error" id="error-message"></p>
+
+        <div class="buttons">
+          <button class="convert" type="submit">Convert Temperature</button>
+          <button class="clear" id="clear-button" type="button">Clear</button>
+        </div>
+      </form>
+
+      <div class="results-title">Converted values</div>
+
+      <section class="results">
+        <article class="result-card">
+          <p>Celsius</p>
+          <strong id="celsius-result">—</strong>
+          <span>°C</span>
+        </article>
+
+        <article class="result-card">
+          <p>Fahrenheit</p>
+          <strong id="fahrenheit-result">—</strong>
+          <span>°F</span>
+        </article>
+
+        <article class="result-card">
+          <p>Kelvin</p>
+          <strong id="kelvin-result">—</strong>
+          <span>K</span>
+        </article>
+      </section>
+
+      <p class="note">
+        <b>Note:</b> Temperatures below absolute zero cannot exist:
+        −273.15 °C, −459.67 °F, or 0 K.
+      </p>
+
+      <section class="about-scales">
+        <h2>About temperature scales</h2>
+
+        <div class="about-grid">
+          <article class="about-card celsius-about">
+            <span>°C</span>
+            <h3>Celsius</h3>
+            <p>Used in most countries for weather and everyday temperatures. Water freezes at 0 °C and boils at 100 °C.</p>
+          </article>
+
+          <article class="about-card fahrenheit-about">
+            <span>°F</span>
+            <h3>Fahrenheit</h3>
+            <p>Commonly used in the United States. Water freezes at 32 °F and boils at 212 °F.</p>
+          </article>
+
+          <article class="about-card kelvin-about">
+            <span>K</span>
+            <h3>Kelvin</h3>
+            <p>The scientific SI temperature scale. It begins at absolute zero, so Kelvin values never go below 0 K.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="learn">
+        <div class="learn-heading">
+          <span>Learn</span>
+          <h2>Temperature essentials</h2>
+        </div>
+
+        <div class="formula-box">
+          <h3>How conversion works</h3>
+
+          <div class="formulas">
+            <code>°F = (°C × 9/5) + 32</code>
+            <code>°C = (°F − 32) × 5/9</code>
+            <code>K = °C + 273.15</code>
+          </div>
+
+          <p>Kelvin uses the same size degree as Celsius, but starts from absolute zero. Kelvin is written without a degree symbol.</p>
+        </div>
+
+        <div class="reference-table-wrap">
+          <h3>Useful reference points</h3>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Reference point</th>
+                <th>Celsius</th>
+                <th>Fahrenheit</th>
+                <th>Kelvin</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Absolute zero</td>
+                <td>−273.15 °C</td>
+                <td>−459.67 °F</td>
+                <td>0 K</td>
+              </tr>
+
+              <tr>
+                <td>Water freezes</td>
+                <td>0 °C</td>
+                <td>32 °F</td>
+                <td>273.15 K</td>
+              </tr>
+
+              <tr>
+                <td>Room temperature</td>
+                <td>20 °C</td>
+                <td>68 °F</td>
+                <td>293.15 K</td>
+              </tr>
+
+              <tr>
+                <td>Water boils*</td>
+                <td>100 °C</td>
+                <td>212 °F</td>
+                <td>373.15 K</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p class="table-note">*At standard sea-level atmospheric pressure.</p>
+        </div>
+
+        <div class="fact">
+          <strong>Did you know?</strong>
+          <p>Celsius is named after Swedish astronomer Anders Celsius. Kelvin is important in science because it is an absolute temperature scale.</p>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <footer class="footer">
+  <p>© 2026 TempFlow. Temperature Converter.</p>
+
+  <p>
+    Built with
+    <span>HTML</span>,
+    <span>CSS</span> and
+    <span>JavaScript</span>
+  </p>
+</footer>
+</body>
+</html>
